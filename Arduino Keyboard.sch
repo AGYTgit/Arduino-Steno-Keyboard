@@ -310,6 +310,52 @@ http://www.xganon.com</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="frames" urn="urn:adsk.eagle:library:229">
+<description>&lt;b&gt;Frames for Sheet and Layout&lt;/b&gt;</description>
+<packages>
+</packages>
+<symbols>
+<symbol name="A4L-LOC" urn="urn:adsk.eagle:symbol:13874/1" library_version="1">
+<wire x1="256.54" y1="3.81" x2="256.54" y2="8.89" width="0.1016" layer="94"/>
+<wire x1="256.54" y1="8.89" x2="256.54" y2="13.97" width="0.1016" layer="94"/>
+<wire x1="256.54" y1="13.97" x2="256.54" y2="19.05" width="0.1016" layer="94"/>
+<wire x1="256.54" y1="19.05" x2="256.54" y2="24.13" width="0.1016" layer="94"/>
+<wire x1="161.29" y1="3.81" x2="161.29" y2="24.13" width="0.1016" layer="94"/>
+<wire x1="161.29" y1="24.13" x2="215.265" y2="24.13" width="0.1016" layer="94"/>
+<wire x1="215.265" y1="24.13" x2="256.54" y2="24.13" width="0.1016" layer="94"/>
+<wire x1="246.38" y1="3.81" x2="246.38" y2="8.89" width="0.1016" layer="94"/>
+<wire x1="246.38" y1="8.89" x2="256.54" y2="8.89" width="0.1016" layer="94"/>
+<wire x1="246.38" y1="8.89" x2="215.265" y2="8.89" width="0.1016" layer="94"/>
+<wire x1="215.265" y1="8.89" x2="215.265" y2="3.81" width="0.1016" layer="94"/>
+<wire x1="215.265" y1="8.89" x2="215.265" y2="13.97" width="0.1016" layer="94"/>
+<wire x1="215.265" y1="13.97" x2="256.54" y2="13.97" width="0.1016" layer="94"/>
+<wire x1="215.265" y1="13.97" x2="215.265" y2="19.05" width="0.1016" layer="94"/>
+<wire x1="215.265" y1="19.05" x2="256.54" y2="19.05" width="0.1016" layer="94"/>
+<wire x1="215.265" y1="19.05" x2="215.265" y2="24.13" width="0.1016" layer="94"/>
+<text x="217.17" y="15.24" size="2.54" layer="94">&gt;DRAWING_NAME</text>
+<text x="217.17" y="10.16" size="2.286" layer="94">&gt;LAST_DATE_TIME</text>
+<text x="230.505" y="5.08" size="2.54" layer="94">&gt;SHEET</text>
+<text x="216.916" y="4.953" size="2.54" layer="94">Sheet:</text>
+<frame x1="0" y1="0" x2="260.35" y2="179.07" columns="6" rows="4" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="A4L-LOC" urn="urn:adsk.eagle:component:13926/1" prefix="FRAME" uservalue="yes" library_version="1">
+<description>&lt;b&gt;FRAME&lt;/b&gt;&lt;p&gt;
+DIN A4, landscape with location and doc. field</description>
+<gates>
+<gate name="G$1" symbol="A4L-LOC" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -321,112 +367,119 @@ http://www.xganon.com</description>
 </classes>
 <parts>
 <part name="U$1" library="Arduino-clone" deviceset="NANO" device=""/>
-<part name="U$15" library="cherrymx" deviceset="CHERRY-MX" device="STANDARD"/>
-<part name="U$16" library="cherrymx" deviceset="CHERRY-MX" device="STANDARD"/>
-<part name="U$17" library="cherrymx" deviceset="CHERRY-MX" device="STANDARD"/>
-<part name="U$18" library="cherrymx" deviceset="CHERRY-MX" device="STANDARD"/>
-<part name="U$19" library="cherrymx" deviceset="CHERRY-MX" device="STANDARD"/>
-<part name="U$20" library="cherrymx" deviceset="CHERRY-MX" device="STANDARD"/>
-<part name="U$21" library="cherrymx" deviceset="CHERRY-MX" device="STANDARD"/>
-<part name="U$22" library="cherrymx" deviceset="CHERRY-MX" device="STANDARD"/>
-<part name="U$23" library="cherrymx" deviceset="CHERRY-MX" device="STANDARD"/>
-<part name="U$5" library="cherrymx" deviceset="CHERRY-MX" device="STANDARD"/>
-<part name="U$2" library="cherrymx" deviceset="CHERRY-MX" device="STANDARD"/>
-<part name="U$3" library="cherrymx" deviceset="CHERRY-MX" device="STANDARD"/>
-<part name="U$4" library="cherrymx" deviceset="CHERRY-MX" device="STANDARD"/>
-<part name="U$6" library="cherrymx" deviceset="CHERRY-MX" device="STANDARD"/>
-<part name="U$7" library="cherrymx" deviceset="CHERRY-MX" device="STANDARD"/>
-<part name="U$8" library="cherrymx" deviceset="CHERRY-MX" device="STANDARD"/>
-<part name="U$9" library="cherrymx" deviceset="CHERRY-MX" device="STANDARD"/>
-<part name="U$10" library="cherrymx" deviceset="CHERRY-MX" device="STANDARD"/>
-<part name="U$11" library="cherrymx" deviceset="CHERRY-MX" device="STANDARD"/>
-<part name="U$12" library="cherrymx" deviceset="CHERRY-MX" device="STANDARD"/>
-<part name="U$13" library="cherrymx" deviceset="CHERRY-MX" device="STANDARD"/>
-<part name="U$14" library="cherrymx" deviceset="CHERRY-MX" device="STANDARD"/>
-<part name="U$24" library="cherrymx" deviceset="CHERRY-MX" device="STANDARD"/>
-<part name="U$25" library="cherrymx" deviceset="CHERRY-MX" device="STANDARD"/>
-<part name="U$26" library="cherrymx" deviceset="CHERRY-MX" device="STANDARD"/>
+<part name="SW12" library="cherrymx" deviceset="CHERRY-MX" device="STANDARD"/>
+<part name="SW11" library="cherrymx" deviceset="CHERRY-MX" device="STANDARD"/>
+<part name="SW13" library="cherrymx" deviceset="CHERRY-MX" device="STANDARD"/>
+<part name="SW14" library="cherrymx" deviceset="CHERRY-MX" device="STANDARD"/>
+<part name="SW19" library="cherrymx" deviceset="CHERRY-MX" device="STANDARD"/>
+<part name="SW18" library="cherrymx" deviceset="CHERRY-MX" device="STANDARD"/>
+<part name="SW17" library="cherrymx" deviceset="CHERRY-MX" device="STANDARD"/>
+<part name="SW16" library="cherrymx" deviceset="CHERRY-MX" device="STANDARD"/>
+<part name="SW15" library="cherrymx" deviceset="CHERRY-MX" device="STANDARD"/>
+<part name="SW20" library="cherrymx" deviceset="CHERRY-MX" device="STANDARD"/>
+<part name="SW2" library="cherrymx" deviceset="CHERRY-MX" device="STANDARD"/>
+<part name="SW1" library="cherrymx" deviceset="CHERRY-MX" device="STANDARD"/>
+<part name="SW3" library="cherrymx" deviceset="CHERRY-MX" device="STANDARD"/>
+<part name="SW4" library="cherrymx" deviceset="CHERRY-MX" device="STANDARD"/>
+<part name="SW9" library="cherrymx" deviceset="CHERRY-MX" device="STANDARD"/>
+<part name="SW8" library="cherrymx" deviceset="CHERRY-MX" device="STANDARD"/>
+<part name="SW7" library="cherrymx" deviceset="CHERRY-MX" device="STANDARD"/>
+<part name="SW6" library="cherrymx" deviceset="CHERRY-MX" device="STANDARD"/>
+<part name="SW5" library="cherrymx" deviceset="CHERRY-MX" device="STANDARD"/>
+<part name="SW10" library="cherrymx" deviceset="CHERRY-MX" device="STANDARD"/>
+<part name="SWS4" library="cherrymx" deviceset="CHERRY-MX" device="STANDARD"/>
+<part name="SWS3" library="cherrymx" deviceset="CHERRY-MX" device="STANDARD"/>
+<part name="SWS2" library="cherrymx" deviceset="CHERRY-MX" device="STANDARD"/>
+<part name="SWS1" library="cherrymx" deviceset="CHERRY-MX" device="STANDARD"/>
+<part name="SWS5" library="cherrymx" deviceset="CHERRY-MX" device="STANDARD"/>
+<part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A4L-LOC" device="" value="Norbu Borbély III.CI"/>
 </parts>
 <sheets>
 <sheet>
 <plain>
+<text x="179.07" y="-22.86" size="2.54" layer="94">Norbu Borbély III.CI</text>
 </plain>
 <instances>
 <instance part="U$1" gate="G$1" x="17.78" y="30.48" smashed="yes"/>
-<instance part="U$15" gate="G$1" x="88.9" y="60.96" smashed="yes" rot="MR0">
+<instance part="SW12" gate="G$1" x="88.9" y="60.96" smashed="yes" rot="MR0">
 <attribute name="NAME" x="93.98" y="53.34" size="1.778" layer="95" rot="MR0"/>
 </instance>
-<instance part="U$16" gate="G$1" x="63.5" y="60.96" smashed="yes" rot="MR0">
+<instance part="SW11" gate="G$1" x="63.5" y="60.96" smashed="yes" rot="MR0">
 <attribute name="NAME" x="68.58" y="53.34" size="1.778" layer="95" rot="MR0"/>
 </instance>
-<instance part="U$17" gate="G$1" x="114.3" y="60.96" smashed="yes" rot="MR0">
+<instance part="SW13" gate="G$1" x="114.3" y="60.96" smashed="yes" rot="MR0">
 <attribute name="NAME" x="119.38" y="53.34" size="1.778" layer="95" rot="MR0"/>
 </instance>
-<instance part="U$18" gate="G$1" x="139.7" y="60.96" smashed="yes" rot="MR0">
+<instance part="SW14" gate="G$1" x="139.7" y="60.96" smashed="yes" rot="MR0">
 <attribute name="NAME" x="144.78" y="53.34" size="1.778" layer="95" rot="MR0"/>
 </instance>
-<instance part="U$19" gate="G$1" x="139.7" y="45.72" smashed="yes" rot="MR0">
+<instance part="SW19" gate="G$1" x="139.7" y="45.72" smashed="yes" rot="MR0">
 <attribute name="NAME" x="144.78" y="38.1" size="1.778" layer="95" rot="MR0"/>
 </instance>
-<instance part="U$20" gate="G$1" x="114.3" y="45.72" smashed="yes" rot="MR0">
+<instance part="SW18" gate="G$1" x="114.3" y="45.72" smashed="yes" rot="MR0">
 <attribute name="NAME" x="119.38" y="38.1" size="1.778" layer="95" rot="MR0"/>
 </instance>
-<instance part="U$21" gate="G$1" x="88.9" y="45.72" smashed="yes" rot="MR0">
+<instance part="SW17" gate="G$1" x="88.9" y="45.72" smashed="yes" rot="MR0">
 <attribute name="NAME" x="93.98" y="38.1" size="1.778" layer="95" rot="MR0"/>
 </instance>
-<instance part="U$22" gate="G$1" x="63.5" y="45.72" smashed="yes" rot="MR0">
+<instance part="SW16" gate="G$1" x="63.5" y="45.72" smashed="yes" rot="MR0">
 <attribute name="NAME" x="68.58" y="38.1" size="1.778" layer="95" rot="MR0"/>
 </instance>
-<instance part="U$23" gate="G$1" x="165.1" y="60.96" smashed="yes" rot="MR0">
+<instance part="SW15" gate="G$1" x="165.1" y="60.96" smashed="yes" rot="MR0">
 <attribute name="NAME" x="170.18" y="53.34" size="1.778" layer="95" rot="MR0"/>
 </instance>
-<instance part="U$5" gate="G$1" x="165.1" y="45.72" smashed="yes" rot="MR0">
+<instance part="SW20" gate="G$1" x="165.1" y="45.72" smashed="yes" rot="MR0">
 <attribute name="NAME" x="170.18" y="38.1" size="1.778" layer="95" rot="MR0"/>
 </instance>
-<instance part="U$2" gate="G$1" x="88.9" y="91.44" smashed="yes" rot="MR0">
+<instance part="SW2" gate="G$1" x="88.9" y="91.44" smashed="yes" rot="MR0">
 <attribute name="NAME" x="93.98" y="83.82" size="1.778" layer="95" rot="MR0"/>
 </instance>
-<instance part="U$3" gate="G$1" x="63.5" y="91.44" smashed="yes" rot="MR0">
+<instance part="SW1" gate="G$1" x="63.5" y="91.44" smashed="yes" rot="MR0">
 <attribute name="NAME" x="68.58" y="83.82" size="1.778" layer="95" rot="MR0"/>
 </instance>
-<instance part="U$4" gate="G$1" x="114.3" y="91.44" smashed="yes" rot="MR0">
+<instance part="SW3" gate="G$1" x="114.3" y="91.44" smashed="yes" rot="MR0">
 <attribute name="NAME" x="119.38" y="83.82" size="1.778" layer="95" rot="MR0"/>
 </instance>
-<instance part="U$6" gate="G$1" x="139.7" y="91.44" smashed="yes" rot="MR0">
+<instance part="SW4" gate="G$1" x="139.7" y="91.44" smashed="yes" rot="MR0">
 <attribute name="NAME" x="144.78" y="83.82" size="1.778" layer="95" rot="MR0"/>
 </instance>
-<instance part="U$7" gate="G$1" x="139.7" y="76.2" smashed="yes" rot="MR0">
+<instance part="SW9" gate="G$1" x="139.7" y="76.2" smashed="yes" rot="MR0">
 <attribute name="NAME" x="144.78" y="68.58" size="1.778" layer="95" rot="MR0"/>
 </instance>
-<instance part="U$8" gate="G$1" x="114.3" y="76.2" smashed="yes" rot="MR0">
+<instance part="SW8" gate="G$1" x="114.3" y="76.2" smashed="yes" rot="MR0">
 <attribute name="NAME" x="119.38" y="68.58" size="1.778" layer="95" rot="MR0"/>
 </instance>
-<instance part="U$9" gate="G$1" x="88.9" y="76.2" smashed="yes" rot="MR0">
+<instance part="SW7" gate="G$1" x="88.9" y="76.2" smashed="yes" rot="MR0">
 <attribute name="NAME" x="93.98" y="68.58" size="1.778" layer="95" rot="MR0"/>
 </instance>
-<instance part="U$10" gate="G$1" x="63.5" y="76.2" smashed="yes" rot="MR0">
+<instance part="SW6" gate="G$1" x="63.5" y="76.2" smashed="yes" rot="MR0">
 <attribute name="NAME" x="68.58" y="68.58" size="1.778" layer="95" rot="MR0"/>
 </instance>
-<instance part="U$11" gate="G$1" x="165.1" y="91.44" smashed="yes" rot="MR0">
+<instance part="SW5" gate="G$1" x="165.1" y="91.44" smashed="yes" rot="MR0">
 <attribute name="NAME" x="170.18" y="83.82" size="1.778" layer="95" rot="MR0"/>
 </instance>
-<instance part="U$12" gate="G$1" x="165.1" y="76.2" smashed="yes" rot="MR0">
+<instance part="SW10" gate="G$1" x="165.1" y="76.2" smashed="yes" rot="MR0">
 <attribute name="NAME" x="170.18" y="68.58" size="1.778" layer="95" rot="MR0"/>
 </instance>
-<instance part="U$13" gate="G$1" x="139.7" y="30.48" smashed="yes" rot="MR0">
+<instance part="SWS4" gate="G$1" x="139.7" y="30.48" smashed="yes" rot="MR0">
 <attribute name="NAME" x="144.78" y="22.86" size="1.778" layer="95" rot="MR0"/>
 </instance>
-<instance part="U$14" gate="G$1" x="114.3" y="30.48" smashed="yes" rot="MR0">
+<instance part="SWS3" gate="G$1" x="114.3" y="30.48" smashed="yes" rot="MR0">
 <attribute name="NAME" x="119.38" y="22.86" size="1.778" layer="95" rot="MR0"/>
 </instance>
-<instance part="U$24" gate="G$1" x="88.9" y="30.48" smashed="yes" rot="MR0">
+<instance part="SWS2" gate="G$1" x="88.9" y="30.48" smashed="yes" rot="MR0">
 <attribute name="NAME" x="93.98" y="22.86" size="1.778" layer="95" rot="MR0"/>
 </instance>
-<instance part="U$25" gate="G$1" x="63.5" y="30.48" smashed="yes" rot="MR0">
+<instance part="SWS1" gate="G$1" x="63.5" y="30.48" smashed="yes" rot="MR0">
 <attribute name="NAME" x="68.58" y="22.86" size="1.778" layer="95" rot="MR0"/>
 </instance>
-<instance part="U$26" gate="G$1" x="165.1" y="30.48" smashed="yes" rot="MR0">
+<instance part="SWS5" gate="G$1" x="165.1" y="30.48" smashed="yes" rot="MR0">
 <attribute name="NAME" x="170.18" y="22.86" size="1.778" layer="95" rot="MR0"/>
+</instance>
+<instance part="FRAME1" gate="G$1" x="-38.1" y="-43.18" smashed="yes">
+<attribute name="DRAWING_NAME" x="179.07" y="-27.94" size="2.54" layer="94"/>
+<attribute name="LAST_DATE_TIME" x="179.07" y="-33.02" size="2.286" layer="94"/>
+<attribute name="SHEET" x="192.405" y="-38.1" size="2.54" layer="95"/>
 </instance>
 </instances>
 <busses>
@@ -437,25 +490,25 @@ http://www.xganon.com</description>
 <pinref part="U$1" gate="G$1" pin="D3"/>
 <wire x1="27.94" y1="22.86" x2="76.2" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="22.86" x2="76.2" y2="27.94" width="0.1524" layer="91"/>
-<pinref part="U$25" gate="G$1" pin="SW2"/>
+<pinref part="SWS1" gate="G$1" pin="SW2"/>
 <wire x1="76.2" y1="27.94" x2="73.66" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="22.86" x2="101.6" y2="22.86" width="0.1524" layer="91"/>
 <junction x="76.2" y="22.86"/>
-<pinref part="U$26" gate="G$1" pin="SW2"/>
+<pinref part="SWS5" gate="G$1" pin="SW2"/>
 <wire x1="101.6" y1="22.86" x2="127" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="127" y1="22.86" x2="152.4" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="152.4" y1="22.86" x2="177.8" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="22.86" x2="177.8" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="27.94" x2="175.26" y2="27.94" width="0.1524" layer="91"/>
-<pinref part="U$13" gate="G$1" pin="SW2"/>
+<pinref part="SWS4" gate="G$1" pin="SW2"/>
 <wire x1="152.4" y1="22.86" x2="152.4" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="152.4" y1="27.94" x2="149.86" y2="27.94" width="0.1524" layer="91"/>
 <junction x="152.4" y="22.86"/>
-<pinref part="U$14" gate="G$1" pin="SW2"/>
+<pinref part="SWS3" gate="G$1" pin="SW2"/>
 <wire x1="127" y1="22.86" x2="127" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="127" y1="27.94" x2="124.46" y2="27.94" width="0.1524" layer="91"/>
 <junction x="127" y="22.86"/>
-<pinref part="U$24" gate="G$1" pin="SW2"/>
+<pinref part="SWS2" gate="G$1" pin="SW2"/>
 <wire x1="101.6" y1="22.86" x2="101.6" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="27.94" x2="99.06" y2="27.94" width="0.1524" layer="91"/>
 <junction x="101.6" y="22.86"/>
@@ -472,21 +525,21 @@ http://www.xganon.com</description>
 <wire x1="127" y1="38.1" x2="152.4" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="152.4" y1="38.1" x2="177.8" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="38.1" x2="177.8" y2="43.18" width="0.1524" layer="91"/>
-<pinref part="U$5" gate="G$1" pin="SW2"/>
+<pinref part="SW20" gate="G$1" pin="SW2"/>
 <wire x1="177.8" y1="43.18" x2="175.26" y2="43.18" width="0.1524" layer="91"/>
-<pinref part="U$19" gate="G$1" pin="SW2"/>
+<pinref part="SW19" gate="G$1" pin="SW2"/>
 <wire x1="152.4" y1="38.1" x2="152.4" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="152.4" y1="43.18" x2="149.86" y2="43.18" width="0.1524" layer="91"/>
 <junction x="152.4" y="38.1"/>
-<pinref part="U$20" gate="G$1" pin="SW2"/>
+<pinref part="SW18" gate="G$1" pin="SW2"/>
 <wire x1="127" y1="38.1" x2="127" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="127" y1="43.18" x2="124.46" y2="43.18" width="0.1524" layer="91"/>
 <junction x="127" y="38.1"/>
-<pinref part="U$21" gate="G$1" pin="SW2"/>
+<pinref part="SW17" gate="G$1" pin="SW2"/>
 <wire x1="101.6" y1="38.1" x2="101.6" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="43.18" x2="99.06" y2="43.18" width="0.1524" layer="91"/>
 <junction x="101.6" y="38.1"/>
-<pinref part="U$22" gate="G$1" pin="SW2"/>
+<pinref part="SW16" gate="G$1" pin="SW2"/>
 <wire x1="76.2" y1="38.1" x2="76.2" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="43.18" x2="73.66" y2="43.18" width="0.1524" layer="91"/>
 <junction x="76.2" y="38.1"/>
@@ -503,21 +556,21 @@ http://www.xganon.com</description>
 <wire x1="127" y1="53.34" x2="152.4" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="152.4" y1="53.34" x2="177.8" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="53.34" x2="177.8" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="U$23" gate="G$1" pin="SW2"/>
+<pinref part="SW15" gate="G$1" pin="SW2"/>
 <wire x1="177.8" y1="58.42" x2="175.26" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="U$18" gate="G$1" pin="SW2"/>
+<pinref part="SW14" gate="G$1" pin="SW2"/>
 <wire x1="152.4" y1="53.34" x2="152.4" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="152.4" y1="58.42" x2="149.86" y2="58.42" width="0.1524" layer="91"/>
 <junction x="152.4" y="53.34"/>
-<pinref part="U$17" gate="G$1" pin="SW2"/>
+<pinref part="SW13" gate="G$1" pin="SW2"/>
 <wire x1="127" y1="53.34" x2="127" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="127" y1="58.42" x2="124.46" y2="58.42" width="0.1524" layer="91"/>
 <junction x="127" y="53.34"/>
-<pinref part="U$15" gate="G$1" pin="SW2"/>
+<pinref part="SW12" gate="G$1" pin="SW2"/>
 <wire x1="101.6" y1="53.34" x2="101.6" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="58.42" x2="99.06" y2="58.42" width="0.1524" layer="91"/>
 <junction x="101.6" y="53.34"/>
-<pinref part="U$16" gate="G$1" pin="SW2"/>
+<pinref part="SW11" gate="G$1" pin="SW2"/>
 <wire x1="76.2" y1="53.34" x2="76.2" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="58.42" x2="73.66" y2="58.42" width="0.1524" layer="91"/>
 <junction x="76.2" y="53.34"/>
@@ -534,21 +587,21 @@ http://www.xganon.com</description>
 <wire x1="127" y1="68.58" x2="152.4" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="152.4" y1="68.58" x2="177.8" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="68.58" x2="177.8" y2="73.66" width="0.1524" layer="91"/>
-<pinref part="U$12" gate="G$1" pin="SW2"/>
+<pinref part="SW10" gate="G$1" pin="SW2"/>
 <wire x1="177.8" y1="73.66" x2="175.26" y2="73.66" width="0.1524" layer="91"/>
-<pinref part="U$7" gate="G$1" pin="SW2"/>
+<pinref part="SW9" gate="G$1" pin="SW2"/>
 <wire x1="152.4" y1="68.58" x2="152.4" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="152.4" y1="73.66" x2="149.86" y2="73.66" width="0.1524" layer="91"/>
 <junction x="152.4" y="68.58"/>
-<pinref part="U$8" gate="G$1" pin="SW2"/>
+<pinref part="SW8" gate="G$1" pin="SW2"/>
 <wire x1="127" y1="68.58" x2="127" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="127" y1="73.66" x2="124.46" y2="73.66" width="0.1524" layer="91"/>
 <junction x="127" y="68.58"/>
-<pinref part="U$9" gate="G$1" pin="SW2"/>
+<pinref part="SW7" gate="G$1" pin="SW2"/>
 <wire x1="101.6" y1="68.58" x2="101.6" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="73.66" x2="99.06" y2="73.66" width="0.1524" layer="91"/>
 <junction x="101.6" y="68.58"/>
-<pinref part="U$10" gate="G$1" pin="SW2"/>
+<pinref part="SW6" gate="G$1" pin="SW2"/>
 <wire x1="76.2" y1="68.58" x2="76.2" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="73.66" x2="73.66" y2="73.66" width="0.1524" layer="91"/>
 <junction x="76.2" y="68.58"/>
@@ -565,21 +618,21 @@ http://www.xganon.com</description>
 <wire x1="127" y1="83.82" x2="152.4" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="152.4" y1="83.82" x2="177.8" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="83.82" x2="177.8" y2="88.9" width="0.1524" layer="91"/>
-<pinref part="U$11" gate="G$1" pin="SW2"/>
+<pinref part="SW5" gate="G$1" pin="SW2"/>
 <wire x1="177.8" y1="88.9" x2="175.26" y2="88.9" width="0.1524" layer="91"/>
-<pinref part="U$6" gate="G$1" pin="SW2"/>
+<pinref part="SW4" gate="G$1" pin="SW2"/>
 <wire x1="152.4" y1="83.82" x2="152.4" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="152.4" y1="88.9" x2="149.86" y2="88.9" width="0.1524" layer="91"/>
 <junction x="152.4" y="83.82"/>
-<pinref part="U$4" gate="G$1" pin="SW2"/>
+<pinref part="SW3" gate="G$1" pin="SW2"/>
 <wire x1="127" y1="83.82" x2="127" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="127" y1="88.9" x2="124.46" y2="88.9" width="0.1524" layer="91"/>
 <junction x="127" y="83.82"/>
-<pinref part="U$2" gate="G$1" pin="SW2"/>
+<pinref part="SW2" gate="G$1" pin="SW2"/>
 <wire x1="101.6" y1="83.82" x2="101.6" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="88.9" x2="99.06" y2="88.9" width="0.1524" layer="91"/>
 <junction x="101.6" y="83.82"/>
-<pinref part="U$3" gate="G$1" pin="SW2"/>
+<pinref part="SW1" gate="G$1" pin="SW2"/>
 <wire x1="76.2" y1="83.82" x2="76.2" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="88.9" x2="73.66" y2="88.9" width="0.1524" layer="91"/>
 <junction x="76.2" y="83.82"/>
@@ -592,22 +645,22 @@ http://www.xganon.com</description>
 <wire x1="43.18" y1="35.56" x2="43.18" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="101.6" x2="78.74" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="101.6" x2="78.74" y2="93.98" width="0.1524" layer="91"/>
-<pinref part="U$3" gate="G$1" pin="SW1"/>
+<pinref part="SW1" gate="G$1" pin="SW1"/>
 <wire x1="78.74" y1="93.98" x2="73.66" y2="93.98" width="0.1524" layer="91"/>
-<pinref part="U$25" gate="G$1" pin="SW1"/>
+<pinref part="SWS1" gate="G$1" pin="SW1"/>
 <wire x1="78.74" y1="93.98" x2="78.74" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="78.74" x2="78.74" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="63.5" x2="78.74" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="48.26" x2="78.74" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="33.02" x2="73.66" y2="33.02" width="0.1524" layer="91"/>
 <junction x="78.74" y="93.98"/>
-<pinref part="U$22" gate="G$1" pin="SW1"/>
+<pinref part="SW16" gate="G$1" pin="SW1"/>
 <wire x1="73.66" y1="48.26" x2="78.74" y2="48.26" width="0.1524" layer="91"/>
 <junction x="78.74" y="48.26"/>
-<pinref part="U$16" gate="G$1" pin="SW1"/>
+<pinref part="SW11" gate="G$1" pin="SW1"/>
 <wire x1="73.66" y1="63.5" x2="78.74" y2="63.5" width="0.1524" layer="91"/>
 <junction x="78.74" y="63.5"/>
-<pinref part="U$10" gate="G$1" pin="SW1"/>
+<pinref part="SW6" gate="G$1" pin="SW1"/>
 <wire x1="73.66" y1="78.74" x2="78.74" y2="78.74" width="0.1524" layer="91"/>
 <junction x="78.74" y="78.74"/>
 </segment>
@@ -619,22 +672,22 @@ http://www.xganon.com</description>
 <wire x1="40.64" y1="38.1" x2="40.64" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="104.14" x2="104.14" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="104.14" x2="104.14" y2="93.98" width="0.1524" layer="91"/>
-<pinref part="U$24" gate="G$1" pin="SW1"/>
+<pinref part="SWS2" gate="G$1" pin="SW1"/>
 <wire x1="104.14" y1="93.98" x2="104.14" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="78.74" x2="104.14" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="63.5" x2="104.14" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="48.26" x2="104.14" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="33.02" x2="99.06" y2="33.02" width="0.1524" layer="91"/>
-<pinref part="U$21" gate="G$1" pin="SW1"/>
+<pinref part="SW17" gate="G$1" pin="SW1"/>
 <wire x1="99.06" y1="48.26" x2="104.14" y2="48.26" width="0.1524" layer="91"/>
 <junction x="104.14" y="48.26"/>
-<pinref part="U$15" gate="G$1" pin="SW1"/>
+<pinref part="SW12" gate="G$1" pin="SW1"/>
 <wire x1="99.06" y1="63.5" x2="104.14" y2="63.5" width="0.1524" layer="91"/>
 <junction x="104.14" y="63.5"/>
-<pinref part="U$9" gate="G$1" pin="SW1"/>
+<pinref part="SW7" gate="G$1" pin="SW1"/>
 <wire x1="99.06" y1="78.74" x2="104.14" y2="78.74" width="0.1524" layer="91"/>
 <junction x="104.14" y="78.74"/>
-<pinref part="U$2" gate="G$1" pin="SW1"/>
+<pinref part="SW2" gate="G$1" pin="SW1"/>
 <wire x1="99.06" y1="93.98" x2="104.14" y2="93.98" width="0.1524" layer="91"/>
 <junction x="104.14" y="93.98"/>
 </segment>
@@ -646,22 +699,22 @@ http://www.xganon.com</description>
 <wire x1="38.1" y1="40.64" x2="38.1" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="106.68" x2="129.54" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="106.68" x2="129.54" y2="93.98" width="0.1524" layer="91"/>
-<pinref part="U$14" gate="G$1" pin="SW1"/>
+<pinref part="SWS3" gate="G$1" pin="SW1"/>
 <wire x1="129.54" y1="93.98" x2="129.54" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="78.74" x2="129.54" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="63.5" x2="129.54" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="48.26" x2="129.54" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="33.02" x2="124.46" y2="33.02" width="0.1524" layer="91"/>
-<pinref part="U$20" gate="G$1" pin="SW1"/>
+<pinref part="SW18" gate="G$1" pin="SW1"/>
 <wire x1="124.46" y1="48.26" x2="129.54" y2="48.26" width="0.1524" layer="91"/>
 <junction x="129.54" y="48.26"/>
-<pinref part="U$17" gate="G$1" pin="SW1"/>
+<pinref part="SW13" gate="G$1" pin="SW1"/>
 <wire x1="124.46" y1="63.5" x2="129.54" y2="63.5" width="0.1524" layer="91"/>
 <junction x="129.54" y="63.5"/>
-<pinref part="U$8" gate="G$1" pin="SW1"/>
+<pinref part="SW8" gate="G$1" pin="SW1"/>
 <wire x1="124.46" y1="78.74" x2="129.54" y2="78.74" width="0.1524" layer="91"/>
 <junction x="129.54" y="78.74"/>
-<pinref part="U$4" gate="G$1" pin="SW1"/>
+<pinref part="SW3" gate="G$1" pin="SW1"/>
 <wire x1="124.46" y1="93.98" x2="129.54" y2="93.98" width="0.1524" layer="91"/>
 <junction x="129.54" y="93.98"/>
 </segment>
@@ -673,22 +726,22 @@ http://www.xganon.com</description>
 <wire x1="35.56" y1="43.18" x2="35.56" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="35.56" y1="109.22" x2="154.94" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="154.94" y1="109.22" x2="154.94" y2="93.98" width="0.1524" layer="91"/>
-<pinref part="U$13" gate="G$1" pin="SW1"/>
+<pinref part="SWS4" gate="G$1" pin="SW1"/>
 <wire x1="154.94" y1="93.98" x2="154.94" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="154.94" y1="78.74" x2="154.94" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="154.94" y1="63.5" x2="154.94" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="154.94" y1="48.26" x2="154.94" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="154.94" y1="33.02" x2="149.86" y2="33.02" width="0.1524" layer="91"/>
-<pinref part="U$19" gate="G$1" pin="SW1"/>
+<pinref part="SW19" gate="G$1" pin="SW1"/>
 <wire x1="149.86" y1="48.26" x2="154.94" y2="48.26" width="0.1524" layer="91"/>
 <junction x="154.94" y="48.26"/>
-<pinref part="U$18" gate="G$1" pin="SW1"/>
+<pinref part="SW14" gate="G$1" pin="SW1"/>
 <wire x1="149.86" y1="63.5" x2="154.94" y2="63.5" width="0.1524" layer="91"/>
 <junction x="154.94" y="63.5"/>
-<pinref part="U$7" gate="G$1" pin="SW1"/>
+<pinref part="SW9" gate="G$1" pin="SW1"/>
 <wire x1="149.86" y1="78.74" x2="154.94" y2="78.74" width="0.1524" layer="91"/>
 <junction x="154.94" y="78.74"/>
-<pinref part="U$6" gate="G$1" pin="SW1"/>
+<pinref part="SW4" gate="G$1" pin="SW1"/>
 <wire x1="149.86" y1="93.98" x2="154.94" y2="93.98" width="0.1524" layer="91"/>
 <junction x="154.94" y="93.98"/>
 </segment>
@@ -700,22 +753,22 @@ http://www.xganon.com</description>
 <wire x1="33.02" y1="45.72" x2="33.02" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="111.76" x2="180.34" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="180.34" y1="111.76" x2="180.34" y2="93.98" width="0.1524" layer="91"/>
-<pinref part="U$26" gate="G$1" pin="SW1"/>
+<pinref part="SWS5" gate="G$1" pin="SW1"/>
 <wire x1="180.34" y1="93.98" x2="180.34" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="180.34" y1="78.74" x2="180.34" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="180.34" y1="63.5" x2="180.34" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="180.34" y1="48.26" x2="180.34" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="180.34" y1="33.02" x2="175.26" y2="33.02" width="0.1524" layer="91"/>
-<pinref part="U$5" gate="G$1" pin="SW1"/>
+<pinref part="SW20" gate="G$1" pin="SW1"/>
 <wire x1="175.26" y1="48.26" x2="180.34" y2="48.26" width="0.1524" layer="91"/>
 <junction x="180.34" y="48.26"/>
-<pinref part="U$23" gate="G$1" pin="SW1"/>
+<pinref part="SW15" gate="G$1" pin="SW1"/>
 <wire x1="175.26" y1="63.5" x2="180.34" y2="63.5" width="0.1524" layer="91"/>
 <junction x="180.34" y="63.5"/>
-<pinref part="U$12" gate="G$1" pin="SW1"/>
+<pinref part="SW10" gate="G$1" pin="SW1"/>
 <wire x1="175.26" y1="78.74" x2="180.34" y2="78.74" width="0.1524" layer="91"/>
 <junction x="180.34" y="78.74"/>
-<pinref part="U$11" gate="G$1" pin="SW1"/>
+<pinref part="SW5" gate="G$1" pin="SW1"/>
 <wire x1="175.26" y1="93.98" x2="180.34" y2="93.98" width="0.1524" layer="91"/>
 <junction x="180.34" y="93.98"/>
 </segment>
@@ -725,4 +778,16 @@ http://www.xganon.com</description>
 </sheets>
 </schematic>
 </drawing>
+<compatibility>
+<note version="8.2" severity="warning">
+Since Version 8.2, EAGLE supports online libraries. The ids
+of those online libraries will not be understood (or retained)
+with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
+</note>
+</compatibility>
 </eagle>
