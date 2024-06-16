@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.2">
+<eagle version="9.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -59,149 +59,6 @@
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
 <libraries>
-<library name="Arduino-clone">
-<description>Arduino Clone pinheaders
-By cl@xganon.com
-http://www.xganon.com</description>
-<packages>
-<package name="NANO">
-<pad name="TX0" x="5.08" y="-8.89" drill="0.8" shape="long"/>
-<pad name="RX1" x="5.08" y="-6.35" drill="0.8" shape="long"/>
-<pad name="RST1" x="5.08" y="-3.81" drill="0.8" shape="long"/>
-<pad name="GND1" x="5.08" y="-1.27" drill="0.8" shape="long"/>
-<pad name="D2" x="5.08" y="1.27" drill="0.8" shape="long"/>
-<pad name="D3" x="5.08" y="3.81" drill="0.8" shape="long"/>
-<pad name="D4" x="5.08" y="6.35" drill="0.8" shape="long"/>
-<pad name="D5" x="5.08" y="8.89" drill="0.8" shape="long"/>
-<pad name="D6" x="5.08" y="11.43" drill="0.8" shape="long"/>
-<pad name="D7" x="5.08" y="13.97" drill="0.8" shape="long"/>
-<pad name="D8" x="5.08" y="16.51" drill="0.8" shape="long"/>
-<pad name="D9" x="5.08" y="19.05" drill="0.8" shape="long"/>
-<pad name="RAW" x="-10.16" y="-8.89" drill="0.8" shape="long"/>
-<pad name="GND" x="-10.16" y="-6.35" drill="0.8" shape="long"/>
-<pad name="RST" x="-10.16" y="-3.81" drill="0.8" shape="long"/>
-<pad name="A3" x="-10.16" y="11.43" drill="0.8" shape="long"/>
-<pad name="A2" x="-10.16" y="13.97" drill="0.8" shape="long"/>
-<pad name="A1" x="-10.16" y="16.51" drill="0.8" shape="long"/>
-<pad name="A0" x="-10.16" y="19.05" drill="0.8" shape="long"/>
-<pad name="D13" x="-10.16" y="26.67" drill="0.8" shape="long"/>
-<pad name="D12" x="5.08" y="26.67" drill="0.8" shape="long"/>
-<pad name="D11" x="5.08" y="24.13" drill="0.8" shape="long"/>
-<pad name="D10" x="5.08" y="21.59" drill="0.8" shape="long"/>
-<pad name="3.3V" x="-10.16" y="24.13" drill="0.8" shape="long" rot="R180"/>
-<pad name="AREF" x="-10.16" y="21.59" drill="0.8" shape="long" rot="R180"/>
-<pad name="5V" x="-10.16" y="-1.27" drill="0.8" shape="long"/>
-<pad name="ICSP2" x="-5.08" y="-7.62" drill="0.8" rot="R90"/>
-<pad name="ICSP4" x="-2.54" y="-7.62" drill="0.8" rot="R90"/>
-<pad name="ICSP6" x="0" y="-7.62" drill="0.8" rot="R90"/>
-<pad name="A4" x="-10.16" y="8.89" drill="0.8" shape="long" rot="R180"/>
-<pad name="A5" x="-10.16" y="6.35" drill="0.8" shape="long" rot="R180"/>
-<pad name="A6" x="-10.16" y="3.81" drill="0.8" shape="long" rot="R180"/>
-<pad name="A7" x="-10.16" y="1.27" drill="0.8" shape="long" rot="R180"/>
-<pad name="ICSP1" x="-5.08" y="-10.16" drill="0.8" rot="R90"/>
-<pad name="ICSP3" x="-2.54" y="-10.16" drill="0.8" rot="R90"/>
-<pad name="ICSP5" x="0" y="-10.16" drill="0.8" rot="R90"/>
-</package>
-</packages>
-<symbols>
-<symbol name="NANO">
-<pin name="3.3V" x="-22.86" y="12.7" visible="pin" length="middle"/>
-<pin name="AREF" x="-22.86" y="10.16" visible="pin" length="middle"/>
-<pin name="ICSP1" x="-10.16" y="-27.94" visible="off" length="point" rot="R270"/>
-<pin name="ICSP2" x="-10.16" y="-25.4" visible="off" length="point" rot="R270"/>
-<pin name="ICSP3" x="-7.62" y="-27.94" visible="off" length="point" rot="R270"/>
-<pin name="ICSP4" x="-7.62" y="-25.4" visible="off" length="point" rot="R270"/>
-<pin name="TX0" x="10.16" y="-20.32" visible="pin" length="middle" rot="R180"/>
-<pin name="RX1" x="10.16" y="-17.78" visible="pin" length="middle" rot="R180"/>
-<pin name="RST1" x="10.16" y="-15.24" visible="pin" length="middle" rot="R180"/>
-<pin name="GND2" x="10.16" y="-12.7" visible="pin" length="middle" rot="R180"/>
-<pin name="D2" x="10.16" y="-10.16" visible="pin" length="middle" rot="R180"/>
-<pin name="D3" x="10.16" y="-7.62" visible="pin" length="middle" rot="R180"/>
-<pin name="D4" x="10.16" y="-5.08" visible="pin" length="middle" rot="R180"/>
-<pin name="D5" x="10.16" y="-2.54" visible="pin" length="middle" rot="R180"/>
-<pin name="D6" x="10.16" y="0" visible="pin" length="middle" rot="R180"/>
-<pin name="D7" x="10.16" y="2.54" visible="pin" length="middle" rot="R180"/>
-<pin name="D8" x="10.16" y="5.08" visible="pin" length="middle" rot="R180"/>
-<pin name="D9" x="10.16" y="7.62" visible="pin" length="middle" rot="R180"/>
-<pin name="RAW" x="-22.86" y="-20.32" visible="pin" length="middle"/>
-<pin name="GND" x="-22.86" y="-17.78" visible="pin" length="middle"/>
-<pin name="RST" x="-22.86" y="-15.24" visible="pin" length="middle"/>
-<pin name="5.5V" x="-22.86" y="-12.7" visible="pin" length="middle"/>
-<pin name="A3" x="-22.86" y="0" visible="pin" length="middle"/>
-<pin name="A2" x="-22.86" y="2.54" visible="pin" length="middle"/>
-<pin name="A1" x="-22.86" y="5.08" visible="pin" length="middle"/>
-<pin name="A0" x="-22.86" y="7.62" visible="pin" length="middle"/>
-<pin name="D13" x="-22.86" y="15.24" visible="pin" length="middle"/>
-<pin name="D12" x="10.16" y="15.24" visible="pin" length="middle" rot="R180"/>
-<pin name="D11" x="10.16" y="12.7" visible="pin" length="middle" rot="R180"/>
-<pin name="D10" x="10.16" y="10.16" visible="pin" length="middle" rot="R180"/>
-<pin name="A7" x="-22.86" y="-10.16" visible="pin" length="middle"/>
-<pin name="A6" x="-22.86" y="-7.62" visible="pin" length="middle"/>
-<pin name="A5" x="-22.86" y="-5.08" visible="pin" length="middle"/>
-<pin name="A4" x="-22.86" y="-2.54" visible="pin" length="middle"/>
-<pin name="ICSP5" x="-5.08" y="-27.94" visible="off" length="point" rot="R270"/>
-<pin name="ICSP6" x="-5.08" y="-25.4" visible="off" length="point" rot="R270"/>
-<wire x1="-17.78" y1="17.78" x2="-17.78" y2="-30.48" width="0.254" layer="94"/>
-<wire x1="-17.78" y1="-30.48" x2="5.08" y2="-30.48" width="0.254" layer="94"/>
-<wire x1="5.08" y1="-30.48" x2="5.08" y2="17.78" width="0.254" layer="94"/>
-<wire x1="5.08" y1="17.78" x2="-17.78" y2="17.78" width="0.254" layer="94"/>
-<text x="-12.7" y="20.32" size="1.778" layer="95">Arduino Nano</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="NANO">
-<description>Arduino Nano</description>
-<gates>
-<gate name="G$1" symbol="NANO" x="7.62" y="2.54"/>
-</gates>
-<devices>
-<device name="" package="NANO">
-<connects>
-<connect gate="G$1" pin="3.3V" pad="3.3V"/>
-<connect gate="G$1" pin="5.5V" pad="5V"/>
-<connect gate="G$1" pin="A0" pad="A0"/>
-<connect gate="G$1" pin="A1" pad="A1"/>
-<connect gate="G$1" pin="A2" pad="A2"/>
-<connect gate="G$1" pin="A3" pad="A3"/>
-<connect gate="G$1" pin="A4" pad="A4"/>
-<connect gate="G$1" pin="A5" pad="A5"/>
-<connect gate="G$1" pin="A6" pad="A6"/>
-<connect gate="G$1" pin="A7" pad="A7"/>
-<connect gate="G$1" pin="AREF" pad="AREF"/>
-<connect gate="G$1" pin="D10" pad="D10"/>
-<connect gate="G$1" pin="D11" pad="D11"/>
-<connect gate="G$1" pin="D12" pad="D12"/>
-<connect gate="G$1" pin="D13" pad="D13"/>
-<connect gate="G$1" pin="D2" pad="D2"/>
-<connect gate="G$1" pin="D3" pad="D3"/>
-<connect gate="G$1" pin="D4" pad="D4"/>
-<connect gate="G$1" pin="D5" pad="D5"/>
-<connect gate="G$1" pin="D6" pad="D6"/>
-<connect gate="G$1" pin="D7" pad="D7"/>
-<connect gate="G$1" pin="D8" pad="D8"/>
-<connect gate="G$1" pin="D9" pad="D9"/>
-<connect gate="G$1" pin="GND" pad="GND"/>
-<connect gate="G$1" pin="GND2" pad="GND1"/>
-<connect gate="G$1" pin="ICSP1" pad="ICSP1"/>
-<connect gate="G$1" pin="ICSP2" pad="ICSP2"/>
-<connect gate="G$1" pin="ICSP3" pad="ICSP3"/>
-<connect gate="G$1" pin="ICSP4" pad="ICSP4"/>
-<connect gate="G$1" pin="ICSP5" pad="ICSP5"/>
-<connect gate="G$1" pin="ICSP6" pad="ICSP6"/>
-<connect gate="G$1" pin="RAW" pad="RAW"/>
-<connect gate="G$1" pin="RST" pad="RST"/>
-<connect gate="G$1" pin="RST1" pad="RST1"/>
-<connect gate="G$1" pin="RX1" pad="RX1"/>
-<connect gate="G$1" pin="TX0" pad="TX0"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="cherrymx">
 <description>Cherry MX Keyswitch PCB footprints</description>
 <packages>
@@ -356,6 +213,131 @@ DIN A4, landscape with location and doc. field</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="Arduino-clone_2">
+<description>Arduino Clone pinheaders
+By cl@xganon.com
+http://www.xganon.com</description>
+<packages>
+<package name="NANO">
+<pad name="TX0" x="5.08" y="-8.89" drill="0.8" shape="long"/>
+<pad name="RX1" x="5.08" y="-6.35" drill="0.8" shape="long"/>
+<pad name="RST1" x="5.08" y="-3.81" drill="0.8" shape="long"/>
+<pad name="GND1" x="5.08" y="-1.27" drill="0.8" shape="long"/>
+<pad name="D2" x="5.08" y="1.27" drill="0.8" shape="long"/>
+<pad name="D3" x="5.08" y="3.81" drill="0.8" shape="long"/>
+<pad name="D4" x="5.08" y="6.35" drill="0.8" shape="long"/>
+<pad name="D5" x="5.08" y="8.89" drill="0.8" shape="long"/>
+<pad name="D6" x="5.08" y="11.43" drill="0.8" shape="long"/>
+<pad name="D7" x="5.08" y="13.97" drill="0.8" shape="long"/>
+<pad name="D8" x="5.08" y="16.51" drill="0.8" shape="long"/>
+<pad name="D9" x="5.08" y="19.05" drill="0.8" shape="long"/>
+<pad name="RAW" x="-10.16" y="-8.89" drill="0.8" shape="long"/>
+<pad name="GND" x="-10.16" y="-6.35" drill="0.8" shape="long"/>
+<pad name="RST" x="-10.16" y="-3.81" drill="0.8" shape="long"/>
+<pad name="A3" x="-10.16" y="11.43" drill="0.8" shape="long"/>
+<pad name="A2" x="-10.16" y="13.97" drill="0.8" shape="long"/>
+<pad name="A1" x="-10.16" y="16.51" drill="0.8" shape="long"/>
+<pad name="A0" x="-10.16" y="19.05" drill="0.8" shape="long"/>
+<pad name="D13" x="-10.16" y="26.67" drill="0.8" shape="long"/>
+<pad name="D12" x="5.08" y="26.67" drill="0.8" shape="long"/>
+<pad name="D11" x="5.08" y="24.13" drill="0.8" shape="long"/>
+<pad name="D10" x="5.08" y="21.59" drill="0.8" shape="long"/>
+<pad name="3.3V" x="-10.16" y="24.13" drill="0.8" shape="long" rot="R180"/>
+<pad name="AREF" x="-10.16" y="21.59" drill="0.8" shape="long" rot="R180"/>
+<pad name="5V" x="-10.16" y="-1.27" drill="0.8" shape="long"/>
+<pad name="A4" x="-10.16" y="8.89" drill="0.8" shape="long" rot="R180"/>
+<pad name="A5" x="-10.16" y="6.35" drill="0.8" shape="long" rot="R180"/>
+<pad name="A6" x="-10.16" y="3.81" drill="0.8" shape="long" rot="R180"/>
+<pad name="A7" x="-10.16" y="1.27" drill="0.8" shape="long" rot="R180"/>
+</package>
+</packages>
+<symbols>
+<symbol name="NANO">
+<pin name="3.3V" x="-22.86" y="12.7" visible="pin" length="middle"/>
+<pin name="AREF" x="-22.86" y="10.16" visible="pin" length="middle"/>
+<pin name="TX0" x="10.16" y="-20.32" visible="pin" length="middle" rot="R180"/>
+<pin name="RX1" x="10.16" y="-17.78" visible="pin" length="middle" rot="R180"/>
+<pin name="RST1" x="10.16" y="-15.24" visible="pin" length="middle" rot="R180"/>
+<pin name="GND2" x="10.16" y="-12.7" visible="pin" length="middle" rot="R180"/>
+<pin name="D2" x="10.16" y="-10.16" visible="pin" length="middle" rot="R180"/>
+<pin name="D3" x="10.16" y="-7.62" visible="pin" length="middle" rot="R180"/>
+<pin name="D4" x="10.16" y="-5.08" visible="pin" length="middle" rot="R180"/>
+<pin name="D5" x="10.16" y="-2.54" visible="pin" length="middle" rot="R180"/>
+<pin name="D6" x="10.16" y="0" visible="pin" length="middle" rot="R180"/>
+<pin name="D7" x="10.16" y="2.54" visible="pin" length="middle" rot="R180"/>
+<pin name="D8" x="10.16" y="5.08" visible="pin" length="middle" rot="R180"/>
+<pin name="D9" x="10.16" y="7.62" visible="pin" length="middle" rot="R180"/>
+<pin name="RAW" x="-22.86" y="-20.32" visible="pin" length="middle"/>
+<pin name="GND" x="-22.86" y="-17.78" visible="pin" length="middle"/>
+<pin name="RST" x="-22.86" y="-15.24" visible="pin" length="middle"/>
+<pin name="5.5V" x="-22.86" y="-12.7" visible="pin" length="middle"/>
+<pin name="A3" x="-22.86" y="0" visible="pin" length="middle"/>
+<pin name="A2" x="-22.86" y="2.54" visible="pin" length="middle"/>
+<pin name="A1" x="-22.86" y="5.08" visible="pin" length="middle"/>
+<pin name="A0" x="-22.86" y="7.62" visible="pin" length="middle"/>
+<pin name="D13" x="-22.86" y="15.24" visible="pin" length="middle"/>
+<pin name="D12" x="10.16" y="15.24" visible="pin" length="middle" rot="R180"/>
+<pin name="D11" x="10.16" y="12.7" visible="pin" length="middle" rot="R180"/>
+<pin name="D10" x="10.16" y="10.16" visible="pin" length="middle" rot="R180"/>
+<pin name="A7" x="-22.86" y="-10.16" visible="pin" length="middle"/>
+<pin name="A6" x="-22.86" y="-7.62" visible="pin" length="middle"/>
+<pin name="A5" x="-22.86" y="-5.08" visible="pin" length="middle"/>
+<pin name="A4" x="-22.86" y="-2.54" visible="pin" length="middle"/>
+<wire x1="-17.78" y1="17.78" x2="-17.78" y2="-30.48" width="0.254" layer="94"/>
+<wire x1="-17.78" y1="-30.48" x2="5.08" y2="-30.48" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-30.48" x2="5.08" y2="17.78" width="0.254" layer="94"/>
+<wire x1="5.08" y1="17.78" x2="-17.78" y2="17.78" width="0.254" layer="94"/>
+<text x="-12.7" y="20.32" size="1.778" layer="95">Arduino Nano</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="NANO">
+<description>Arduino Nano</description>
+<gates>
+<gate name="G$1" symbol="NANO" x="7.62" y="2.54"/>
+</gates>
+<devices>
+<device name="" package="NANO">
+<connects>
+<connect gate="G$1" pin="3.3V" pad="3.3V"/>
+<connect gate="G$1" pin="5.5V" pad="5V"/>
+<connect gate="G$1" pin="A0" pad="A0"/>
+<connect gate="G$1" pin="A1" pad="A1"/>
+<connect gate="G$1" pin="A2" pad="A2"/>
+<connect gate="G$1" pin="A3" pad="A3"/>
+<connect gate="G$1" pin="A4" pad="A4"/>
+<connect gate="G$1" pin="A5" pad="A5"/>
+<connect gate="G$1" pin="A6" pad="A6"/>
+<connect gate="G$1" pin="A7" pad="A7"/>
+<connect gate="G$1" pin="AREF" pad="AREF"/>
+<connect gate="G$1" pin="D10" pad="D10"/>
+<connect gate="G$1" pin="D11" pad="D11"/>
+<connect gate="G$1" pin="D12" pad="D12"/>
+<connect gate="G$1" pin="D13" pad="D13"/>
+<connect gate="G$1" pin="D2" pad="D2"/>
+<connect gate="G$1" pin="D3" pad="D3"/>
+<connect gate="G$1" pin="D4" pad="D4"/>
+<connect gate="G$1" pin="D5" pad="D5"/>
+<connect gate="G$1" pin="D6" pad="D6"/>
+<connect gate="G$1" pin="D7" pad="D7"/>
+<connect gate="G$1" pin="D8" pad="D8"/>
+<connect gate="G$1" pin="D9" pad="D9"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="GND2" pad="GND1"/>
+<connect gate="G$1" pin="RAW" pad="RAW"/>
+<connect gate="G$1" pin="RST" pad="RST"/>
+<connect gate="G$1" pin="RST1" pad="RST1"/>
+<connect gate="G$1" pin="RX1" pad="RX1"/>
+<connect gate="G$1" pin="TX0" pad="TX0"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -366,7 +348,6 @@ DIN A4, landscape with location and doc. field</description>
 </class>
 </classes>
 <parts>
-<part name="U$1" library="Arduino-clone" deviceset="NANO" device=""/>
 <part name="SW12" library="cherrymx" deviceset="CHERRY-MX" device="STANDARD"/>
 <part name="SW11" library="cherrymx" deviceset="CHERRY-MX" device="STANDARD"/>
 <part name="SW13" library="cherrymx" deviceset="CHERRY-MX" device="STANDARD"/>
@@ -393,6 +374,7 @@ DIN A4, landscape with location and doc. field</description>
 <part name="SWS1" library="cherrymx" deviceset="CHERRY-MX" device="STANDARD"/>
 <part name="SWS5" library="cherrymx" deviceset="CHERRY-MX" device="STANDARD"/>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A4L-LOC" device="" value="Norbu Borbély III.CI"/>
+<part name="U$1" library="Arduino-clone_2" deviceset="NANO" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -400,7 +382,6 @@ DIN A4, landscape with location and doc. field</description>
 <text x="179.07" y="-22.86" size="2.54" layer="94">Norbu Borbély III.CI</text>
 </plain>
 <instances>
-<instance part="U$1" gate="G$1" x="20.32" y="0" smashed="yes"/>
 <instance part="SW12" gate="G$1" x="91.44" y="43.18" smashed="yes" rot="MR0">
 <attribute name="NAME" x="96.52" y="35.56" size="1.778" layer="95" rot="MR0"/>
 </instance>
@@ -481,13 +462,13 @@ DIN A4, landscape with location and doc. field</description>
 <attribute name="LAST_DATE_TIME" x="179.07" y="-33.02" size="2.286" layer="94"/>
 <attribute name="SHEET" x="192.405" y="-38.1" size="2.54" layer="95"/>
 </instance>
+<instance part="U$1" gate="G$1" x="20.32" y="0" smashed="yes"/>
 </instances>
 <busses>
 </busses>
 <nets>
 <net name="N$1" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="D3"/>
 <wire x1="30.48" y1="-7.62" x2="78.74" y2="-7.62" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="-7.62" x2="78.74" y2="0" width="0.1524" layer="91"/>
 <pinref part="SWS1" gate="G$1" pin="SW2"/>
@@ -512,11 +493,11 @@ DIN A4, landscape with location and doc. field</description>
 <wire x1="104.14" y1="-7.62" x2="104.14" y2="0" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="0" x2="101.6" y2="0" width="0.1524" layer="91"/>
 <junction x="104.14" y="-7.62"/>
+<pinref part="U$1" gate="G$1" pin="D3"/>
 </segment>
 </net>
 <net name="N$2" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="D4"/>
 <wire x1="30.48" y1="-5.08" x2="55.88" y2="-5.08" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="-5.08" x2="55.88" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="12.7" x2="78.74" y2="12.7" width="0.1524" layer="91"/>
@@ -543,11 +524,11 @@ DIN A4, landscape with location and doc. field</description>
 <wire x1="78.74" y1="12.7" x2="78.74" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="20.32" x2="76.2" y2="20.32" width="0.1524" layer="91"/>
 <junction x="78.74" y="12.7"/>
+<pinref part="U$1" gate="G$1" pin="D4"/>
 </segment>
 </net>
 <net name="N$3" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="D5"/>
 <wire x1="30.48" y1="-2.54" x2="53.34" y2="-2.54" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="-2.54" x2="53.34" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="33.02" x2="78.74" y2="33.02" width="0.1524" layer="91"/>
@@ -574,11 +555,11 @@ DIN A4, landscape with location and doc. field</description>
 <wire x1="78.74" y1="33.02" x2="78.74" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="40.64" x2="76.2" y2="40.64" width="0.1524" layer="91"/>
 <junction x="78.74" y="33.02"/>
+<pinref part="U$1" gate="G$1" pin="D5"/>
 </segment>
 </net>
 <net name="N$4" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="D6"/>
 <wire x1="30.48" y1="0" x2="50.8" y2="0" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="0" x2="50.8" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="53.34" x2="78.74" y2="53.34" width="0.1524" layer="91"/>
@@ -605,11 +586,11 @@ DIN A4, landscape with location and doc. field</description>
 <wire x1="78.74" y1="53.34" x2="78.74" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="60.96" x2="76.2" y2="60.96" width="0.1524" layer="91"/>
 <junction x="78.74" y="53.34"/>
+<pinref part="U$1" gate="G$1" pin="D6"/>
 </segment>
 </net>
 <net name="N$5" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="D7"/>
 <wire x1="30.48" y1="2.54" x2="48.26" y2="2.54" width="0.1524" layer="91"/>
 <wire x1="48.26" y1="2.54" x2="48.26" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="48.26" y1="73.66" x2="78.74" y2="73.66" width="0.1524" layer="91"/>
@@ -636,11 +617,11 @@ DIN A4, landscape with location and doc. field</description>
 <wire x1="78.74" y1="73.66" x2="78.74" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="81.28" x2="76.2" y2="81.28" width="0.1524" layer="91"/>
 <junction x="78.74" y="73.66"/>
+<pinref part="U$1" gate="G$1" pin="D7"/>
 </segment>
 </net>
 <net name="N$6" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="D8"/>
 <wire x1="30.48" y1="5.08" x2="45.72" y2="5.08" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="5.08" x2="45.72" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="93.98" x2="81.28" y2="93.98" width="0.1524" layer="91"/>
@@ -663,11 +644,11 @@ DIN A4, landscape with location and doc. field</description>
 <pinref part="SW6" gate="G$1" pin="SW1"/>
 <wire x1="76.2" y1="66.04" x2="81.28" y2="66.04" width="0.1524" layer="91"/>
 <junction x="81.28" y="66.04"/>
+<pinref part="U$1" gate="G$1" pin="D8"/>
 </segment>
 </net>
 <net name="N$7" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="D9"/>
 <wire x1="30.48" y1="7.62" x2="43.18" y2="7.62" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="7.62" x2="43.18" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="96.52" x2="106.68" y2="96.52" width="0.1524" layer="91"/>
@@ -690,11 +671,11 @@ DIN A4, landscape with location and doc. field</description>
 <pinref part="SW2" gate="G$1" pin="SW1"/>
 <wire x1="101.6" y1="86.36" x2="106.68" y2="86.36" width="0.1524" layer="91"/>
 <junction x="106.68" y="86.36"/>
+<pinref part="U$1" gate="G$1" pin="D9"/>
 </segment>
 </net>
 <net name="N$8" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="D10"/>
 <wire x1="30.48" y1="10.16" x2="40.64" y2="10.16" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="10.16" x2="40.64" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="99.06" x2="132.08" y2="99.06" width="0.1524" layer="91"/>
@@ -717,11 +698,11 @@ DIN A4, landscape with location and doc. field</description>
 <pinref part="SW3" gate="G$1" pin="SW1"/>
 <wire x1="127" y1="86.36" x2="132.08" y2="86.36" width="0.1524" layer="91"/>
 <junction x="132.08" y="86.36"/>
+<pinref part="U$1" gate="G$1" pin="D10"/>
 </segment>
 </net>
 <net name="N$9" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="D11"/>
 <wire x1="30.48" y1="12.7" x2="38.1" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="12.7" x2="38.1" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="101.6" x2="157.48" y2="101.6" width="0.1524" layer="91"/>
@@ -744,11 +725,11 @@ DIN A4, landscape with location and doc. field</description>
 <pinref part="SW4" gate="G$1" pin="SW1"/>
 <wire x1="152.4" y1="86.36" x2="157.48" y2="86.36" width="0.1524" layer="91"/>
 <junction x="157.48" y="86.36"/>
+<pinref part="U$1" gate="G$1" pin="D11"/>
 </segment>
 </net>
 <net name="N$10" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="D12"/>
 <wire x1="30.48" y1="15.24" x2="35.56" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="35.56" y1="15.24" x2="35.56" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="35.56" y1="104.14" x2="182.88" y2="104.14" width="0.1524" layer="91"/>
@@ -771,6 +752,7 @@ DIN A4, landscape with location and doc. field</description>
 <pinref part="SW5" gate="G$1" pin="SW1"/>
 <wire x1="177.8" y1="86.36" x2="182.88" y2="86.36" width="0.1524" layer="91"/>
 <junction x="182.88" y="86.36"/>
+<pinref part="U$1" gate="G$1" pin="D12"/>
 </segment>
 </net>
 </nets>
